@@ -16,7 +16,7 @@
   "services": [
     {
       "num": "01",
-      "title": "Разра-\nботка",
+      "title": "Разработка",
       "text": "Python, автоматизация, AI-инструменты, веб"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "num": "03",
-      "title": "Обуче-\nние",
+      "title": "Обучение",
       "text": "Репетиторство по IT и программированию"
     }
   ],
@@ -46,7 +46,6 @@
   ],
   "contacts": {
     "telegram": "https://t.me/USERNAME",
-    "vk": "https://vk.com/USERNAME",
     "email": "your@email.com"
   },
   "marquee": ["Python", "Figma", "Tilda", "AI Tools", "HTML / CSS", "Обучение", "Автоматизация", "Дизайн"]
