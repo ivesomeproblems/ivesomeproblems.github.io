@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="cur"><div id="cur-dot"></div></div>
+
+  <div id="loader">
+    <div id="loader-num">0</div>
+    <div id="loader-bar-wrap"><div id="loader-bar"></div></div>
+  </div>
+
+  <nav>
+    <div class="nav-logo" id="navLogo"></div>
+    <ul class="nav-links">
+      <li><a href="#services">услуги</a></li>
+      <li><a href="#projects">проекты</a></li>
+      <li><a href="#about">обо мне</a></li>
+      <li><a href="#contacts">контакты</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-grid" id="heroGrid"></div>
+    <div class="hero-tag" id="heroTag"></div>
+    <h1 class="hero-h1" id="heroH1"></h1>
+    <div class="hero-bottom">
+      <div class="hero-desc" id="heroDesc"></div>
+      <div class="hero-cta">
+        <div>
+          <a href="#contacts" class="btn btn-primary">написать →</a>
+          <a href="#projects" class="btn btn-secondary">смотреть проекты</a>
+        </div>
+        <div class="hero-scroll"><div class="scroll-line"></div>scroll</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee-wrap">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </div>
+
+  <section class="services" id="services">
+    <div id="servicesGrid"></div>
+  </section>
+
+  <section class="projects reveal" id="projects">
+    <div class="projects-header">
+      <div class="section-title">Проекты</div>
+      <div class="section-meta" id="projectsMeta"></div>
+    </div>
+    <div id="projectsList"></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-left reveal">
+      <div class="about-label">// обо мне</div>
+      <div class="about-name" id="aboutName"></div>
+      <div class="about-text" id="aboutText"></div>
+      <div class="stats" id="statsGrid"></div>
+    </div>
+    <div class="about-right reveal reveal-d1">
+      <div class="about-label">// стек</div>
+      <div class="tags" id="stackTags"></div>
+      <div class="about-label">// сейчас изучаю</div>
+      <div class="tags" id="learningTags"></div>
+    </div>
+  </section>
+
+  <section class="contacts reveal" id="contacts">
+    <div class="contacts-bg">CONNECT</div>
+    <div class="contacts-inner">
+      <div>
+        <div class="contacts-title">Давай<br>работать<br>вместе</div>
+        <div class="contacts-sub">Пиши — отвечу быстро</div>
+      </div>
+      <div class="contact-links" id="contactLinks"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-copy" id="footerLeft"></div>
+    <div class="footer-copy" id="footerRight"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

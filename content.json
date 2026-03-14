@@ -1,0 +1,53 @@
+{
+  "name": "Кирилл Попов",
+  "initials": "К.П.",
+  "role": "IT-специалист",
+  "location": "Воронеж",
+  "year": "2025",
+  "hero": {
+    "line1": "Разраба-",
+    "line2": "тываю.",
+    "line3": "Учу.",
+    "description": "Делаю лендинги, пишу скрипты на Python, работаю с AI-инструментами. Объясняю сложное — просто."
+  },
+  "about": {
+    "text": "IT-специалист из Воронежа. Учусь на 3-м курсе по специальности «Информационные системы и программирование». Работаю с Python, Figma, AI-инструментами. Обучаю людей IT — объясняю сложное простым языком."
+  },
+  "services": [
+    {
+      "num": "01",
+      "title": "Разра-\nботка",
+      "text": "Python, автоматизация, AI-инструменты, веб"
+    },
+    {
+      "num": "02",
+      "title": "Дизайн",
+      "text": "Figma-макеты, сайты на Tilda и HTML"
+    },
+    {
+      "num": "03",
+      "title": "Обуче-\nние",
+      "text": "Репетиторство по IT и программированию"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Портфолио-сайт",
+      "type": "HTML · CSS · JS",
+      "url": "#",
+      "desc": "Этот сайт — первый проект. Сделан с нуля на чистом HTML/CSS/JS с анимациями."
+    }
+  ],
+  "stack": ["Python", "Figma", "Tilda", "HTML / CSS", "Claude AI", "Midjourney", "ProjectLibre", "Git"],
+  "learning": ["JavaScript", "React", "SQL"],
+  "stats": [
+    { "value": 3, "label": "года в IT" },
+    { "value": 1, "label": "проект в портфолио" }
+  ],
+  "contacts": {
+    "telegram": "https://t.me/USERNAME",
+    "vk": "https://vk.com/USERNAME",
+    "email": "your@email.com"
+  },
+  "marquee": ["Python", "Figma", "Tilda", "AI Tools", "HTML / CSS", "Обучение", "Автоматизация", "Дизайн"]
+}
