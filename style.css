@@ -277,7 +277,7 @@ nav::before {
 }
 
 .svc {
-  padding: 56px 48px;
+  padding: 56px;
   border-right: 1px solid var(--border);
   position: relative; overflow: hidden;
 }
