@@ -268,8 +268,12 @@ nav::before {
    SERVICES
 ───────────────────────────────────────── */
 .services {
-  display: grid; grid-template-columns: repeat(3, 1fr);
   border-bottom: 1px solid var(--border);
+}
+.services > div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
 }
 
 .svc {
