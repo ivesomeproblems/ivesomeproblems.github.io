@@ -37,6 +37,14 @@
       "url": "#",
       "desc": "Этот сайт — первый проект. Сделан с нуля на чистом HTML/CSS/JS с анимациями."
     }
+
+    {
+  "name": "BODY Fitness Club",
+  "type": "HTML · CSS · JS",
+  "url": "https://ivesomeproblems.github.io/body-fitness",
+  "desc": "Лендинг для фитнес-клуба"
+}
+    
   ],
   "stack": ["Python", "Figma", "Tilda", "HTML / CSS", "Claude AI", "Midjourney", "ProjectLibre", "Git"],
   "learning": ["JavaScript", "React", "SQL"],
